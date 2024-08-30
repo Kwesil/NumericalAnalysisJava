@@ -1,6 +1,5 @@
 import java.util.function.Function;
-import java.util.Scanner;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
 public class PicardMethod {
     // Function representing dy/dx = f(x, y)
     static Function<Double, Double> f = (y) -> 1 + y * y;
